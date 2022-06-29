@@ -1,0 +1,46 @@
+@media (min-width: 720px) {
+    .navbar-brand {
+        margin: 0px 50px;
+    }
+
+    .nav-link {
+        margin: 0px 50px;
+    }
+
+    #somos-alegrarte .container {
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    #somos-alegrarte .texto {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0px 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-alegrarte .img-container {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("../img/mini.jpeg");
+
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    .servicios {
+        display: flex;
+        justify-content: center;
+    }
+
+    .servicios p {
+        display: block;
+    }
+
+}

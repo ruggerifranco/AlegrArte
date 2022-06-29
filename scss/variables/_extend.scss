@@ -1,0 +1,10 @@
+// EXTEND
+%containerStyle {
+    max-width: 1400px;
+    margin: auto;
+}
+
+// MIXIN
+@mixin colorPrimario {
+    color: #f8b8d5;
+}

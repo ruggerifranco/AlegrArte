@@ -1,0 +1,22 @@
+.bg {
+    --bs-bg-opacity: 1;
+    background-color: #f8b8d5;
+
+
+    .navbar-nav .nav-link.active {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .navbar-brand {
+        color: white;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        color: white;
+    }
+
+}

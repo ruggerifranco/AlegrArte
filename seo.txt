@@ -1,0 +1,3 @@
+
+1- Agregue etiquetas meta keywords y meta descpription en todas las secciones de mi proyecto.
+2. Agregue extend y mixin en _variables.scss.

@@ -1,0 +1,22 @@
+.footer {
+    background-color: black;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        i {
+            color: #f8b8d5;
+            padding: 10px;
+        }
+
+        p {
+            margin-bottom: 0;
+            color: #f8b8d5;
+        }
+
+    }
+}

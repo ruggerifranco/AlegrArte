@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: $fontH1;
+}
+
+h2 {
+    font-size: $fontH2;
+}
+
+h3 {
+    font-size: $fontH3;
+}
+
+p {
+    font-size: $fontP;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+@import './variables/variables';
+@import './variables/extend';
+@import './secciones/contacto';
+@import './secciones/footer';
+@import './secciones/hero';
+@import './secciones/nav';
+@import './secciones/servicios';
+@import './secciones/sobre-nosotros';
+@import 'media';
+@import './secciones/galeria';
+
+
+// /* BOTONES */
+button {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #f8b8d5;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: rgb(248, 184, 213);
+    position: relative;
+}
+
+button:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(248, 184, 213, 1);
+    transition: all 0.2s ease;
+}
+
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+/* CONTAINER */
+.container {
+    @extend %containerStyle
+}
+
+.color-acento {
+    @include colorPrimario();
+}
