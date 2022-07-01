@@ -195,8 +195,10 @@ li {
     justify-content: center; }
   .servicios p {
     display: block; }
-  .column {
-    flex: 25%; } }
+  .galeria .row {
+    align-items: stretch; }
+    .galeria .row .column {
+      flex: 25%; } }
 
 .galeria {
   background-color: black; }
