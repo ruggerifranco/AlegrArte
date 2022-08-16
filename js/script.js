@@ -1,12 +1,12 @@
 let productos = [
     { nombre: 'Piñata', precio: 3000 },
     { nombre: 'Guirnalda', precio: 2500 },
-    { nombre: 'Souvenir', precio: 2000 },
+    { nombre: 'Roseta', precio: 2000 },
 ]
+
 
 let carrito = []
 
-alert('BIENVENIDO A ALEGRARTE')
 let compra = confirm('DESEA REALIZAR UNA COMPRA?')
 
 if (compra === true) {
@@ -22,7 +22,7 @@ while (compra === true) {
     let precio = 0
     producto = producto.toLowerCase()
 
-    if (producto === 'piñata' || producto === 'guirnalda' || producto === 'souvenir') {
+    if (producto === 'piñata' || producto === 'guirnalda' || producto === 'roseta') {
         switch (producto) {
             case 'piñata':
                 precio = 3000
